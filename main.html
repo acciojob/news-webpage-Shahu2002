@@ -1,38 +1,97 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <title>News Page</title>
+    <style>
+        body {
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #011e29;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        h1 {
+            color: white;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h2 {
+            background-color: #011e29;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .latest-news {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .pictorial-news {
+            text-align: center;
+        }
+
+        .pictorial-news img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+
+        p {
+            text-align: center;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-		<header class="nav"><b>Shaw's News</b></header>
-		<section class="main latest-news" >
-			<div style="background-color:white; width:200px; height:200px; border-radius:10px;">
-			<h3>Latest News Articles</h3>
-			<ul>
-				<li>Article1</li>
-				<li>Article2</li>
-				<li>Article3</li>
-			</ul>
-			</div >
-			<div class="pictorial-news" style="background-color:white; width:200px; height:300px; border-radius:10px; margin:10px; margin-top:0;"  >
-				<h2>Main Article</h2>
-				<p>Create a webpage layout that matches the provided image. Your HTML and CSS must contain the following:</p>
-			</div>
-				<div class="img">
-			<div  style="background-color:white; padding-top:10px; text-align:center; width:250px; height:400px; border-radius:10px; margin:10px; margin-top:0px">
-				<img style="width:200px;" src="https://images.hindustantimes.com/img/2023/01/29/550x309/delhi_rains_1674974112847_1674981888135_1674981888135.jpeg" alt="img1">
-				<img style="width:200px;" src="https://images.hindustantimes.com/img/2023/01/29/550x309/ADANI-INDIA-GAUTAM-ADANI-0_1675011651023_1675011651023_1675011672003_1675011672003.JPG" alt="img1">
-				<img style="width:200px;" src="https://images.hindustantimes.com/img/2023/01/29/550x309/FRANCE-REFORM-PENSIONS-31_1675022359706_1675022359706_1675022383851_1675022383851.JPG" alt="img1">
-			</div>
-           </div>		
-		</section>
-    <script type="text/javascript" src="./script.js">
-</script>
+    <header>
+        <h1>Latest News</h1>
+    </header>
 
+    <div class="container">
+        <h2>Featured Stories</h2>
+        
+        <div class="latest-news">
+            <ul>
+                <li>
+                    <h3>Story 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </li>
+                <li>
+                    <h3>Story 2</h3>
+                    <p>Nulla facilisi. Etiam in urna sit amet mauris faucibus viverra.</p>
+                </li>
+                <li>
+                    <h3>Story 3</h3>
+                    <p>Vivamus hendrerit justo eget varius. Proin vel metus nec arcu consectetur.</p>
+                </li>
+            </ul>
+        </div>
+
+        <h2 class="pictorial-news">Pictorial News</h2>
+        <div class="pictorial-news">
+            <img src="Image_one.jpg" alt="Image One">
+            <img src="Image_two.jpg" alt="Image Two">
+            <img src="Image_three.jpg" alt="Image Three">
+        </div>
+    </div>
 </body>
-
 </html>
