@@ -1,1 +1,18 @@
 /*  your css code here. If applicable */
+
+body{
+	background-color : #f5f5f5;
+}
+.nav{
+	box-border:border-box;
+	padding:20px;
+	text-align:center;
+	width:100vw;
+	height:25px;
+	color:white;
+	background-color: #011e29;
+}
+.main{
+	display:flex;
+	width:100vw;
+}
